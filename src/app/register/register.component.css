@@ -1,0 +1,18 @@
+input {
+	text-align: center;
+}
+
+button {
+	background-color: rgb(31, 31, 158);
+}
+
+a {
+	color: rgb(31, 31, 158);
+	text-decoration: none;
+}
+
+.form-body {
+	border-style: ridge;
+	border-radius: 10px;
+	border-color: rgb(31, 31, 158);
+}

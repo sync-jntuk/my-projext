@@ -1,0 +1,54 @@
+.header {
+    padding: 15px 1cm;
+}
+
+.header h1 {
+    font-weight: bold;
+}
+
+.header h2 {
+	font-weight: bold;
+}
+
+.user-name {
+	font-style: italic;
+	font-weight: bold;
+	margin-left: 2cm;
+}
+
+#navbarNav {
+	margin-right: 3cm;
+}
+
+.navBar li {
+    justify-items: flex;
+    /* margin-right: 0.5cm; */
+    padding-bottom: 0.5cm;
+    /* padding-right: 0.5cm; */
+}
+
+.navBar button {
+    font-size: 16px;
+    font-weight: bold;
+    background: rgb(120, 174, 197);
+    width: 120px;
+    padding: 10px;
+    margin-left: 1cm;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navBar button:hover,
+button:focus,
+button:active {
+    color: rgb(255, 255, 255);
+    background-color: darkblue;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
