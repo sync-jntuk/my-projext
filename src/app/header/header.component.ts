@@ -31,13 +31,17 @@ export class HeaderComponent implements OnInit {
 		})
 	}
 
-	goToHome() {}
+	goToHome() {
+		this.router.navigateByUrl('/home')
+	}
 	goToRegister() {}
 	goToLogin() {
 		this.router.navigateByUrl('/login')
 	}
 
-	goToUpdate() {}
+	goToPortals() {
+		this.router.navigateByUrl('/navigation')
+	}
 	logout() {
 		localStorage.clear()
 		this.goToLogin()
