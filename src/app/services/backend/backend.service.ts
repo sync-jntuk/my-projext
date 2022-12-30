@@ -16,7 +16,6 @@ export class BackendService {
 	}
 
 	insertDate(url: string, data: any): Observable<any> {
-		// const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
 		const config = { headers: new HttpHeaders().set('Content-Type', 'application/json') }
 		return this.httpClient.post<any>(this._baseURL + url, data, config)
 	}
